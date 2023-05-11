@@ -312,3 +312,85 @@ header .elecciones .active {
     margin-top: 20px;
     margin-left: 30px;
 }
+
+/*Footer*/
+#pie{
+    display: block;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.logo{
+    background: url("/campamento/resources/logoCampamento/default-min.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15vw;
+    width: 40vw;
+    margin: auto;
+    margin-top: 0;
+}
+
+.redes-sociales{
+    display: block;
+    padding: 0;
+}
+
+.instagram{
+    background: url("/campamento/resources/logosRedesSociales/instagram.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto;
+    width: 2vw;
+    height: 1vw;
+    display: inline-block;
+}
+
+.facebook{
+    background: url("/campamento/resources/logosRedesSociales/facebook.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto;
+    width: 2vw;
+    height: 1vw;
+    display: inline-block;
+}
+
+.twitter{
+    background: url("/campamento/resources/logosRedesSociales/twitter.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto;
+    width: 2vw;
+    height: 1vw;
+    display: inline-block;
+}
+
+.youtube{
+    background: url("/campamento/resources/logosRedesSociales/youtube.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto;
+    width: 2vw;
+    height: 1vw;
+    display: inline-block;
+}
+
+.contacto{
+    width: auto;
+}
+
+.telefono, .horario, .correo{
+    display: inline-block;
+    margin: 1vw;
+}
+
+ .vigencia, .terminos-condiciones, .politica-privacidad, .politica-cookies, .aviso-legal{
+    display: inline-block;
+ }
